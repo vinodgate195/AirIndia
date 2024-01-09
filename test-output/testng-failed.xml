@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite Air India]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <parameter name="emaid" value="vinodgate05@gmail.com"/>
+    <parameter name="url" value="https://www.amazon.com/"/>
+    <classes>
+      <class name="com.qa.testpack.Firstpage_test">
+        <methods>
+          <include name="setup"/>
+          <include name="quit"/>
+          <include name="validatetitle"/>
+          <include name="parameter"/>
+        </methods>
+      </class> <!-- com.qa.testpack.Firstpage_test -->
+      <class name="com.qa.testpack.Signinpage_Test">
+        <methods>
+          <include name="setup1"/>
+          <include name="quit"/>
+          <include name="validatjoinbtn"/>
+          <include name="validatetitle"/>
+        </methods>
+      </class> <!-- com.qa.testpack.Signinpage_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite Air India] -->
